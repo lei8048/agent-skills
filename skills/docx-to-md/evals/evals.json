@@ -1,0 +1,23 @@
+{
+  "skill_name": "docx-to-md",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "将桌面上的报告.docx转换为Markdown，保留所有格式包括加粗斜体和表格",
+      "expected_output": "生成包含正确标题层级、格式和表格的Markdown文件",
+      "files": ["报告.docx"]
+    },
+    {
+      "id": 2,
+      "prompt": "这个Word文档里有业务流程图帮我转成mermaid图",
+      "expected_output": "提取流程图内容并生成Mermaid代码块",
+      "files": ["流程文档.docx"]
+    },
+    {
+      "id": 3,
+      "prompt": "把这份旧版的word文档转换成markdown，要带目录",
+      "expected_output": "自动生成TOC目录结构的Markdown文件",
+      "files": ["旧文档.doc"]
+    }
+  ]
+}
